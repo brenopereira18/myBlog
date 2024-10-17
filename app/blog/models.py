@@ -7,6 +7,7 @@ STATUS = (
     (1, "Publish")
 )
 
+
 class Post(models.Model):
     title = models.CharField(max_length=200, unique=True)
     #Um campo que armazena uma versão curta e amigável do título para URLs.
